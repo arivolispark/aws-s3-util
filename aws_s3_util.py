@@ -52,7 +52,7 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         message = "Invalid number of command line arguments supplied." \
                   "\nUsage:  " \
-                  "\npython3 awsutil.py <S3_bucket>"
+                  "\npython3 aws_s3_util.py <S3_bucket>"
         raise Exception(message)
 
     print(sys.argv[1:])
